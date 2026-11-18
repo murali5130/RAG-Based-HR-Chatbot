@@ -1,0 +1,22 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Environment variables and API keys
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# FAISS generated index (if it contains confidential data)
+faiss_index/
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
